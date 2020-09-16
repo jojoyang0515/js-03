@@ -14,10 +14,10 @@ function currentSlide(n) {
 //built the dots  //adopted from https://www.youtube.com/watch?v=Ec5Lq_7soM0 and https://www.quanzhanketang.com/howto/howto_js_slideshow.html and lecture video
 dotHTML += 
 	"<div class='dot' onclick='currentSlide(1)'></div>"+
-	"<div class='dot'onclick='currentSlide(2)'></div>"+
+	"<div class='dot' onclick='currentSlide(2)'></div>"+
 	"<div class='dot' onclick='currentSlide(3)'></div>";
 
-//show the slide and dots
+//show the slide and dots 
 function showSlides(n) {
 	var slides = document.getElementsByClassName("my-slides");
 	var dots = document.getElementsByClassName("dot");
