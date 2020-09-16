@@ -11,7 +11,7 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-//built the dots
+//built the dots  //adopted from https://www.youtube.com/watch?v=Ec5Lq_7soM0 and https://www.quanzhanketang.com/howto/howto_js_slideshow.html and lecture video
 dotHTML += 
 	"<div class='dot' onclick='currentSlide(1)'></div>"+
 	"<div class='dot'onclick='currentSlide(2)'></div>"+
