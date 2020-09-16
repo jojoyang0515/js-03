@@ -77,20 +77,20 @@
 }
 
 /*animation*/
-.slide {
+.slideeffect {
   -webkit-animation-name: slide;
-  -webkit-animation-duration: 0.2s;
+  -webkit-animation-duration: 0.1s;
   animation-name: slide;
-  animation-duration: 0.2s;
+  animation-duration: 0.1s;
   position: relative;
 }
 
 @-webkit-keyframes slide {
-  from {left: 200px;}
-  to {left: 1200px;}
+  from {right: 0;}
+  to {right: 1200px;}
 }
 
 @keyframes slide {
-  from {left: 200px;}
-  to {left: 1200px;}
+  from {right: 0;}
+  to {right: 1200px;}
 }
